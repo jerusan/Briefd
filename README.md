@@ -17,6 +17,12 @@ Briefd saves you time. No more overloaded feeds or searches. Just the essential 
 - Compiles summaries into an HTML email body
 - Sends the email briefing to specified recipients
 
+## End product will work as follows
+1. Users subscribe by selecting topics they care about - eg. business news, crypto markets, global affairs, tech, sports teams, etc. These become their standing briefing queries.
+2. Overnight, the service runs the logic to find the most important/relevant new stories on their topics.
+3. In the morning, they receive a personalized email digest containing concise, optimized blurbs - so they get all the need-to-know updates in under 10 minutes of reading.
+
+Eventually, the service needs to evolve to learn about user preferences and improve relevance over time. It can be done either by tracking the links clicked from the email digest or by implementing an extension to track their interests. This way, Briefd can deliver only what matters to the user.
 ## Usage
 
 1. Clone the repository

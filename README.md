@@ -20,13 +20,12 @@ Briefd saves you time. No more overloaded feeds or searches. Just the essential 
 ## Usage
 
 1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Set the following environment variables:
+2. Set the following environment variables:
     - `OPENAI_API_KEY`: Your OpenAI API key
     - `METAPHOR_API_KEY`: Your Metaphor API key
-    - `GMAIL_APP_PASSWORD`: An app password for your Gmail account  
-4. Update the script with your own sender/recipient emails, interests, and date
-5. Run `python briefing.py`
+    - `GMAIL_APP_PASSWORD`: An app password for your Gmail account
+3. Update the script with your own sender(`sender_email`)/recipient(`receiver_email`) emails, Gmail email(`gmail_user_name`) and password(`gmail_app_password`) for SMTP server, interests, and date
+4. Run `python main.py`
 
 The script will generate summaries for the specified interests, compile them into an HTML email, and send it to the provided recipients.
 
